@@ -1,0 +1,231 @@
+/* Интро
+=========================*/
+.intro {
+height: 950px;
+    padding-top: 150px;
+margin:auto;
+background-image: url(img/i.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+background-position:top;
+}
+
+
+
+/* Логотип
+==========================*/
+.header {
+    padding: 35px 0;
+    width: 100px;
+    height: 10px;
+    position:absolute;
+        top: 25px;
+        left: 25px;
+    z-index: 1000;
+} 
+
+/* Заголовок сайта
+=========================*/
+.intro__inner{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+/*   Надпись внизу
+=========================*/
+.intro__inner {
+    font-family: font-family: 'Fredoka One', cursive;
+    font-size: 100px;
+        color:white;
+    max-width: 900px;
+    text-transform: uppercase;
+    vertical-align: sub;
+    margin-top: 750px;
+}
+
+
+.intro__inner1 {
+    font-family: font-family: 'Courier Prime', monospace;
+    font-size: 40px;
+        color:black;
+    max-width: 900px;
+    text-transform: uppercase;
+    vertical-align: sub;
+    margin: 0 auto;
+    margin-top: 100px;
+    word-spacing: 40px;
+}
+
+/*   Надпись модели
+======================*/
+.intro__inner2 {
+    font-family: font-family: 'Fredoka One', cursive;
+    font-size: 100px;
+        color:black;
+    max-width: 500px;
+    text-transform: uppercase;
+    vertical-align: sub;
+    margin-top: 70px;
+    margin: 0 auto;
+    background-attachment: fixed;
+}
+
+
+
+
+/*  Слайдер
+====================*/
+
+#slider {
+    position: relative;
+	text-align: left;
+    top: 10px;
+}
+
+#slider{ 
+	margin-top: 0 auto;
+}
+
+#slides article{
+	width: 20%;
+	float: left;
+}
+
+#slides .image{
+	width: 500%;
+	line-height: 0;
+}
+
+#overflow{
+	width: 100%;
+	overflow: hidden;
+}
+
+article img{
+	width: 100%;
+}
+
+#desktop:checked ~ #slider{
+	max-width: 960px;
+}
+
+label, a{
+	cursor: pointer;
+}
+.all input{
+	display: none;
+}
+
+#switch1:checked ~ #slides .image{
+	margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image{
+	margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image{
+	margin-left: -200%;
+}
+
+#switch4:checked ~ #slides .image{
+	margin-left: -300%;
+}
+
+#controls{
+	margin: 1px;
+	width: 10px;
+	height: 10px;
+}
+
+#active label{
+	border-radius: 10px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: #bbb;
+}
+
+#active{
+	margin: 1px;
+	text-align: center;
+}
+
+#active label:hover{ 
+	background: #76c8ff;
+	border-color: #777 !important; 
+}
+
+#slides .image{ 
+	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+
+
+
+
+
+/*   связь
+==========================*/
+
+.in {
+    font-size: 20px;
+    word-spacing: 6px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+#submit {
+font-family: sans-serif;
+color: #ffffff;
+font-size: 30px;
+margin-bottom: 50px;
+padding: 10px;
+text-decoration: none;
+box-shadow: 0px 1px 3px #666666;
+-webkit-box-shadow: 0px 1px 3px #666666;
+-moz-box-shadow: 0px 1px 3px #666666;
+text-shadow: 1px 1px 3px #666666;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#ce1515), to(#8b0d0d));
+background: -moz-linear-gradient(top, #ce1515, #8b0d0d);
+}
+ 
+#submit:hover {
+ background: -webkit-gradient(linear, 0 0, 0 100%, from(#8b0d0d), to(#ce1515));
+ background: -moz-linear-gradient(top, #8b0d0d, #ce1515)
+}
+#respond input[type=text], textarea {
+ -webkit-transition: all 0.30s ease-in-out;
+ -moz-transition: all 0.30s ease-in-out;
+ -ms-transition: all 0.30s ease-in-out;
+ -o-transition: all 0.30s ease-in-out;
+ outline: none;
+ padding: 5px 0px 3px 3px;
+ margin: 5px 1px 3px 0px;
+ border: 1px solid #DDDDDD;
+}
+#respond input[type=text]:focus, textarea:focus {
+ box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+ margin: 5px 1px 3px 0px;
+ border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
